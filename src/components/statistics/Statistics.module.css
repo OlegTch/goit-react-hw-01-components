@@ -1,0 +1,36 @@
+.statistics {
+  padding: 30px;
+}
+
+.title {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.stat-list {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.item {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  width: calc((90%) / 5);
+  border: 2px solid #afb1b8;
+}
+
+.item:not(:last-child) {
+  border-right: 0;
+}
+
+.label {
+  display: block;
+  margin-bottom: 3px;
+}
+
+.percentage {
+  display: block;
+  font-weight: 500;
+  font-size: 20px;
+}
